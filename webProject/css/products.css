@@ -1,0 +1,29 @@
+ul{
+		display: flex;
+		flex-wrap: wrap;
+}
+
+li{
+		display: inline-block;
+		flex: auto;
+    width: 35rem;
+    height: 30rem;
+    vertical-align: text-top;
+}
+
+li a{
+		color: #000;
+    text-decoration: none;
+		display: inline-block;
+		text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+li img{
+		width: 15rem;
+    height: 25rem;
+		margin: auto;
+		overflow: hidden;
+		display: block;
+}
