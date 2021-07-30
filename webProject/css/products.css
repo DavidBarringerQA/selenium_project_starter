@@ -1,12 +1,15 @@
 ul.product-list{
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: space-evenly;
 }
 
 ul.product-list li{
 		display: inline-block;
-		flex: auto;
-    width: 35rem;
+		box-sizing: border-box;
+    border: 1px solid #ddd;
+		margin: 2rem;
+    width: 30rem;
     height: 30rem;
     vertical-align: text-top;
 		overflow: hidden;
