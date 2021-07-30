@@ -1,10 +1,13 @@
 footer{
-		position: absolute;
 		box-sizing: border-box;
 		bottom: 0px;
-		background-color: #ddd;
+    border-top: 1px solid #ddd;
 		width: 100%;
     padding: 5px;
+}
+
+body{
+		min-height: 100%;
 }
 
 #copyright{
